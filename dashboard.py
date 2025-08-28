@@ -10,7 +10,7 @@ from datetime import datetime
 from functools import lru_cache
 
 # ---------------- PAGE CONFIG ----------------
-st.set_page_config(page_title="📊 Smart Dashboard", layout="wide")
+st.set_page_config(page_title="📊 Dashboard Cerdas Penjualan", layout="wide")
 st.markdown("""
     <style>
     .stApp { background: linear-gradient(135deg, #f5f7fa, #e6ecf3); color: #2c3e50; font-family: 'Segoe UI', sans-serif; }
@@ -22,7 +22,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 Smart Dashboard")
+st.title("📊 Dashboard Cerdas Penjualan + Forecasting (Kebaya Modern)")
 
 # ---------------- SIDEBAR OPTIONS ----------------
 st.sidebar.header("⚙️ Pengaturan Dashboard")
@@ -346,5 +346,4 @@ with colx2:
 
 st.markdown("---")
 st.caption("Catatan: integrasi data eksternal bersifat opsional. Atur di sidebar. Kamu bisa mengganti sumber data eksternal dan logika rekomendasi sesuai strategi bisnis.")
-
 
