@@ -346,4 +346,3 @@ with colx2:
 
 st.markdown("---")
 st.caption("Catatan: integrasi data eksternal bersifat opsional. Atur di sidebar. Kamu bisa mengganti sumber data eksternal dan logika rekomendasi sesuai strategi bisnis.")
-
