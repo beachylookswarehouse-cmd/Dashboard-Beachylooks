@@ -1,5 +1,8 @@
 streamlit
 pandas
-matplotlib
 prophet
+matplotlib
+seaborn
 openpyxl
+pytrends
+requests
